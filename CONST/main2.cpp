@@ -15,7 +15,8 @@ class Dog{
     //const parameter
     void setAge(const int &a){
         age =a;
-        a++;
+        //a++; 
+        //bad ^
         //throws error to prevent modification of foreign variables
     }
 
